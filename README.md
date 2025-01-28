@@ -8,10 +8,12 @@ Response Size Filtering: Allows exclusion of unwanted response sizes (default: 0
 Customizable: Users can modify extensions or exclude specific response sizes easily.
 
 Usage:
-1 - Prepare a URL file: Create a text file (urls.txt) with one target URL per line.
-2 - Run the script:
+1- Download the bash script make it executable 
+chmod +x dirsearch-ext-focused.sh
+2 - Prepare a URL file: Create a text file (urls.txt) with one target URL per line.
+3 - Run the script:
 ./dirsearch-ext-focused.sh -f urls.txt
-3 - Optional: Exclude additional response sizes:
+4 - Optional: Exclude additional response sizes:
 ./dirsearch-ext-focused.sh -f urls.txt --exclude-sizes=0KB,1KB
 
 Extensions Scanned:
