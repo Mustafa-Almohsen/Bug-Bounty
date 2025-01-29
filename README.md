@@ -12,11 +12,15 @@ Usage:
 
 1- Download the bash script make it executable 
 chmod +x dirsearch-ext-focused.sh
+
 2 - Prepare a URL file: Create a text file (urls.txt) with one target URL per line.
+
 3 - Run the script:
 ./dirsearch-ext-focused.sh -f urls.txt
+
 4 - Optional: Exclude additional response sizes:
 ./dirsearch-ext-focused.sh -f urls.txt --exclude-sizes=0KB,1KB
+
 
 Extensions Scanned:
 
