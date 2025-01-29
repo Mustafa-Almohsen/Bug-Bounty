@@ -8,6 +8,8 @@ Response Size Filtering: Allows exclusion of unwanted response sizes (default: 0
 Customizable: Users can modify extensions or exclude specific response sizes easily.
 
 Usage:
+
+
 1- Download the bash script make it executable 
 chmod +x dirsearch-ext-focused.sh
 2 - Prepare a URL file: Create a text file (urls.txt) with one target URL per line.
