@@ -4,7 +4,7 @@ from rich.table import Table
 
 console = Console()
 
-# Function to encode a character to Punycode
+
 def encode_punycode(char):
     try:
         return char.encode('idna').decode('ascii')
@@ -14,7 +14,7 @@ def encode_punycode(char):
         except:
             return None
 
-# Extended homoglyph map for letters, numbers, and some symbols
+
 homoglyphs_map = {
     'a': ['à','á','â','ã','ä','å','ɑ','А','Α','Ꭺ','Ａ','𝔄','𝕬','𝒜','𝐀','𝐴','𝘈','𝙰','𝖠','𝗔','𝘼','𝚨','𝑨','ⓐ','Ⓐ','🅐','🅰','𝔞','𝖆','𝒶','𝗮','𝘢'],
     'b': ['Ь','Ꮟ','Ƅ','ᖯ','𝐛','𝑏','𝒃','𝓫','𝔟','𝕓','𝖇','𝗯','𝘣','𝙗','𝚋'],
