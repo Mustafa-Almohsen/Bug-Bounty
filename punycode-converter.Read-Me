@@ -1,0 +1,41 @@
+Description:
+
+🎯 Full Homoglyph Punycode Viewer
+
+This Python script allows you to explore all possible homoglyphs (look-alike characters) for letters, numbers, and some symbols, and instantly converts them into Punycode.
+It’s perfect for:
+
+Phishing awareness and testing
+
+Domain security research
+
+Unicode and IDN exploration
+
+Features:
+
+Interactive terminal interface with rich colored tables
+
+Supports letters a-z, numbers 0-9, and symbols like @, ., -
+
+Shows all possible homoglyphs for each character
+
+Displays the Punycode equivalent of each variant
+
+Easy to use — just type a character and see results instantly.
+
+
+Example usage:
+
+$ python3 punycode-homoglyph-viewer.py
+Enter a letter, number, or symbol: a
+
+🔎 Punycode Variants for 'a'
+┏━━━━━━━━━━━┳━━━━━━━━━━┓
+┃ Original  ┃ Punycode ┃
+┡━━━━━━━━━━━╇━━━━━━━━━━┩
+│ à         │ xn--à     │
+│ á         │ xn--á     │
+│ â         │ xn--â     │
+│ ...       │ ...       │
+└───────────┴──────────┘
+Exit the program: type exit
